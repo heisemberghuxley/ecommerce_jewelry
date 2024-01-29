@@ -1,5 +1,23 @@
 <header>
   <nav>
-    HEADER DE LA PAGINA
+    <ul>
+      <li>Inicio</li>
+      <li (click)="toggleShowCatalogo()">Catalogo
+        <ul *ngIf="showCatalogo">
+          <li>Aretes y Candongas</li>
+          <li>Ejemplo</li>
+          <li>Ejemplo</li>
+          <li>Ejemplo</li>
+        </ul>
+      </li>
+      <li>Descuentos</li>
+    </ul>
   </nav>
+  <img src="" alt="">
+  <div class="modal-search">
+    <input type="text" placeholder="busca algo">
+  </div>
+
+
+
 </header>
