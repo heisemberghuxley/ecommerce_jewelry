@@ -2,3 +2,9 @@ header{
   width: 100%;
   background-color: rgb(99, 167, 226);
 }
+nav>ul>li{
+  cursor: pointer;
+}
+/* nav>ul>li:nth-child(2)>ul>li{
+  display: none;
+} */
