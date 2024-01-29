@@ -6,6 +6,9 @@ header{
 
 nav{
   display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 nav>ul>li{
@@ -47,6 +50,4 @@ h6 {
   width: 128px;
   height: 85px;
 }
-/* nav>ul>li:nth-child(2)>ul>li{
-  display: none;
-} */
+
