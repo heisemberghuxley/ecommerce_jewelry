@@ -1,23 +1,28 @@
 <header>
-  <nav>
-    <ul>
-      <li>Inicio</li>
-      <li (click)="toggleShowCatalogo()">Catalogo
-        <ul *ngIf="showCatalogo">
-          <li>Aretes y Candongas</li>
-          <li>Ejemplo</li>
-          <li>Ejemplo</li>
-          <li>Ejemplo</li>
-        </ul>
-      </li>
-      <li>Descuentos</li>
-    </ul>
-  </nav>
-  <img src="" alt="">
-  <div class="modal-search">
-    <input type="text" placeholder="busca algo">
+    <div>
+      <h6>ENVIOS A TODO COLOMBIA</h6>
+    </div>
+  <div >
+    <nav>
+      <ul class="opciones">
+        <li>INICIO</li>
+        <li (click)="toggleShowCatalogo()">CATALOGO
+          <ul *ngIf="showCatalogo">
+            <li>Aretes y Candongas</li>
+            <li>Ejemplo</li>
+            <li>Ejemplo</li>
+            <li>Ejemplo</li>
+          </ul>
+        </li>
+      <li class="descuentos">DESCUENTOS</li>
+      </ul>
+      <img src="../../../assets/ANGULAR.png" alt="angular" class="angular">
+      <div class="modal-search">
+        <input type="text" placeholder="busca algo">
+      </div>
+    </nav>
+
+
   </div>
-
-
 
 </header>

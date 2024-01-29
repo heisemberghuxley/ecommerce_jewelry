@@ -1,9 +1,51 @@
 header{
   width: 100%;
-  background-color: rgb(99, 167, 226);
+  background-color: rgb(248, 248, 248);
+  color: rgb(138, 131, 131);
 }
+
+nav{
+  display: flex;
+}
+
 nav>ul>li{
   cursor: pointer;
+  list-style-type: none;
+  font-size: 7px;
+  margin-left: 8px;
+  margin-bottom: 0;
+
+}
+
+li:hover {
+  border-bottom: 1px solid rgb(70, 70, 80);
+}
+
+.descuentos {
+  cursor: pointer;
+  list-style-type: none;
+  font-size: 7px;
+  margin-left: 4.1rem;
+}
+
+h6 {
+  text-align: center;
+  color:rgba(46, 43, 38, 0.411);
+  background-color: rgba(65, 226, 178, 0.767);
+  font-size: 7px;
+  color: rgb(53, 50, 50);
+  padding: 0.4rem;
+
+}
+
+.opciones{
+  display: flex;
+  margin: 20px;
+}
+
+.angular{
+  width: 128px;
+  height: 85px;
 }
 /* nav>ul>li:nth-child(2)>ul>li{
   display: none;
