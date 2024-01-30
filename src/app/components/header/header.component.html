@@ -1,34 +1,37 @@
+<div class="envios">
+  <span>ENVIOS A TODO COLOMBIA</span>
+</div>
 <header>
-    <div>
-      <h6>ENVIOS A TODO COLOMBIA</h6>
-    </div>
-
     <nav>
-      <ul class="opciones">
+      <ul>
         <li>INICIO</li>
-        <li (click)="toggleShowCatalogo()">CATALOGO
-          <ul *ngIf="showCatalogo" class="catalogo">
-            <li>Aretes y Candongas</li>
+        <li class="catalogo-option" (click)="toggleShowCatalogo()">
+          <span>CATALOGO
+           <i class="material-icons">expand_more</i>
+          </span>
+
+          <ul *ngIf="showCatalogo" class="catalogo-nav">
+            <li>Aretes </li>
             <li>Ejemplo</li>
             <li>Ejemplo</li>
             <li>Ejemplo</li>
           </ul>
         </li>
-        <span class="material-symbols-outlined">
-          expand_more
-          </span>
 
         <li class="descuentos">DESCUENTOS</li>
       </ul>
-      <div>
-      <img src="../../../assets/ANGULAR.png" alt="angular" class="angular">
-    </div>
-    <div class="icons">
-      <img src="../../../assets/buscador.png" alt="buscador" class="icons-section">
-      <img src="../../../assets/usuario.png" alt="usuario" class="icons-section">
-      <img src="../../../assets/carrito.png" alt="carrito" class="icons-section">
-
-
-        </div>
     </nav>
+
+    <img src="../../../assets/ANGULAR.png" alt="angular" class="imagen">
+
+    <div class="icons">
+      <i class="material-icons">search</i>
+      <i class="material-icons">person</i>
+      <i class="material-icons">shopping_cart</i>
+
+      <!-- <img src="../../../assets/buscador.png" alt="buscador" class="icons-section"> -->
+      <!-- <img src="../../../assets/usuario.png" alt="usuario" class="icons-section"> -->
+      <!-- <img src="../../../assets/carrito.png" alt="carrito" class="icons-section"> -->
+
+    </div>
 </header>
