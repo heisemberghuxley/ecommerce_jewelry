@@ -7,19 +7,28 @@
       <ul class="opciones">
         <li>INICIO</li>
         <li (click)="toggleShowCatalogo()">CATALOGO
-          <ul *ngIf="showCatalogo">
+          <ul *ngIf="showCatalogo" class="catalogo">
             <li>Aretes y Candongas</li>
             <li>Ejemplo</li>
             <li>Ejemplo</li>
             <li>Ejemplo</li>
           </ul>
         </li>
+        <span class="material-symbols-outlined">
+          expand_more
+          </span>
+
         <li class="descuentos">DESCUENTOS</li>
       </ul>
+      <div>
       <img src="../../../assets/ANGULAR.png" alt="angular" class="angular">
-      <div class="modal-search">
-        <input type="text" placeholder="busca algo">
-      </div>
-    </nav>
+    </div>
+    <div class="icons">
+      <img src="../../../assets/buscador.png" alt="buscador" class="icons-section">
+      <img src="../../../assets/usuario.png" alt="usuario" class="icons-section">
+      <img src="../../../assets/carrito.png" alt="carrito" class="icons-section">
 
+
+        </div>
+    </nav>
 </header>
