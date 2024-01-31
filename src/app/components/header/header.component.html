@@ -1,3 +1,4 @@
+<router-outlet></router-outlet>
 <div class="envios">
   <span>ENVIOS A TODO COLOMBIA</span>
 </div>
@@ -7,7 +8,7 @@
         <li>INICIO</li>
         <li class="catalogo-option" (click)="toggleShowCatalogo()">
           <span>CATALOGO
-           <i class="material-icons">expand_more</i>
+            <i class="material-icons">expand_more</i>
           </span>
 
           <ul *ngIf="showCatalogo" class="catalogo-nav">
@@ -35,3 +36,5 @@
 
     </div>
 </header>
+
+<app-footer></app-footer>

@@ -4,6 +4,9 @@ import { RouterModule } from '@angular/router';
 import { SearchComponent } from './search/search.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { ModalLoginComponent } from './modal-login/modal-login.component';
+import { ShoppingCarComponent } from './shoppingCar/shoppingCar.component';
+import { ComponentsRoutingModule } from './components-routing.module';
 
 
 
@@ -12,16 +15,21 @@ import { FooterComponent } from './footer/footer.component';
     SearchComponent,
     HeaderComponent,
     FooterComponent,
+    ModalLoginComponent,
+    ShoppingCarComponent,
+
 
   ],
   imports: [
     CommonModule,
     RouterModule,
+    ComponentsRoutingModule
   ],
   exports:[
     SearchComponent,
     HeaderComponent,
     FooterComponent,
+    ModalLoginComponent
   ]
 })
 export class ComponentsModule { }
