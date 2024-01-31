@@ -27,7 +27,7 @@ nav>ul>li{
 }
 
 li:hover {
-  height: 8px;
+  height: 16px;
   border-bottom: 1px solid rgb(70, 70, 80);
 
 
@@ -43,8 +43,8 @@ li:hover {
   'wght' 1,
   'GRAD' 5,
   'opsz' 1;
-  margin-left: 4.3rem;
-  margin-top: -0.2rem;
+  margin-left: 4.5rem;
+margin-top: 2px;
   position: absolute;
   margin: 0, 1rem;
   width: 0.5px;
