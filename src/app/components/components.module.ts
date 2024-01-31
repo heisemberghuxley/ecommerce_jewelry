@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ModalLoginComponent } from './modal-login/modal-login.component';
 import { ShoppingCarComponent } from './shoppingCar/shoppingCar.component';
 import { ComponentsRoutingModule } from './components-routing.module';
+import { LayoutPageComponent } from './layout-page/layout-page.component';
 
 
 
@@ -17,6 +18,7 @@ import { ComponentsRoutingModule } from './components-routing.module';
     FooterComponent,
     ModalLoginComponent,
     ShoppingCarComponent,
+    LayoutPageComponent
 
 
   ],
@@ -29,7 +31,8 @@ import { ComponentsRoutingModule } from './components-routing.module';
     SearchComponent,
     HeaderComponent,
     FooterComponent,
-    ModalLoginComponent
+    ModalLoginComponent,
+    LayoutPageComponent
   ]
 })
 export class ComponentsModule { }

@@ -5,12 +5,13 @@ import { SearchComponent } from './search/search.component';
 import { ModalLoginComponent } from './modal-login/modal-login.component';
 import { FooterComponent } from './footer/footer.component';
 import { ShoppingCarComponent } from './shoppingCar/shoppingCar.component';
+import { LayoutPageComponent } from './layout-page/layout-page.component';
 
 
 const routes: Routes = [
   {
     path: '',
-    component: HeaderComponent,
+    component: LayoutPageComponent,
     children: [
       { path: 'header', component: HeaderComponent },
       { path: 'search', component: SearchComponent },
